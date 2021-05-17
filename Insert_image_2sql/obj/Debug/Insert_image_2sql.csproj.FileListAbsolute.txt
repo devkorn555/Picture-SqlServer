@@ -1,0 +1,11 @@
+D:\C#\Insert_image_2sql\Insert_image_2sql\bin\Debug\Insert_image_2sql.exe.config
+D:\C#\Insert_image_2sql\Insert_image_2sql\bin\Debug\Insert_image_2sql.exe
+D:\C#\Insert_image_2sql\Insert_image_2sql\bin\Debug\Insert_image_2sql.pdb
+D:\C#\Insert_image_2sql\Insert_image_2sql\bin\Debug\FlatUI.dll
+D:\C#\Insert_image_2sql\Insert_image_2sql\bin\Debug\FlatUI.pdb
+D:\C#\Insert_image_2sql\Insert_image_2sql\obj\Debug\Insert_image_2sql.Form1.resources
+D:\C#\Insert_image_2sql\Insert_image_2sql\obj\Debug\Insert_image_2sql.Properties.Resources.resources
+D:\C#\Insert_image_2sql\Insert_image_2sql\obj\Debug\Insert_image_2sql.csproj.GenerateResource.Cache
+D:\C#\Insert_image_2sql\Insert_image_2sql\obj\Debug\Insert_image_2sql.exe
+D:\C#\Insert_image_2sql\Insert_image_2sql\obj\Debug\Insert_image_2sql.pdb
+D:\C#\Insert_image_2sql\Insert_image_2sql\obj\Debug\Insert_image_2sql.csprojResolveAssemblyReference.cache
