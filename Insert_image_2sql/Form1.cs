@@ -40,6 +40,10 @@ namespace Insert_image_2sql
             {
                 path = di.FileName;
                 tbpath.Text = path;
+
+                int lastindex = path.LastIndexOf("\\");
+                imgname = path.Substring(lastindex + 1);
+               
                 pictureBox1.Image = Image.FromFile(path);
                 pictureBox1.Refresh();
 
@@ -61,10 +65,13 @@ namespace Insert_image_2sql
             try
             {
                 Connectdb();
-                string txt = "INSERT INTO Testimg(img) VALUES (@img)";
+                string txt = "INSERT INTO Testimg(img_name,img_path,img) VALUES (@name,@path,@img)";
                 SqlCommand cmd = new SqlCommand(txt, con);
 
-                cmd.Parameters.Add(new SqlParameter("@img", img));
+
+                cmd.Parameters.Add(new SqlParameter("name", imgname));
+                cmd.Parameters.Add(new SqlParameter("path", path));
+                cmd.Parameters.Add(new SqlParameter("img", img));
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Suscess!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
